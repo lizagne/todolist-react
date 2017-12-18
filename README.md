@@ -33,4 +33,10 @@
 
     Next to make a static Date component.
 
+    Add an avatar component, with my face!
+
+    
+
+
+
 
