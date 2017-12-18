@@ -43,6 +43,10 @@
 
     Update the Datecomp component with importing Moment.js and also changing the format so that it'll show today's date.
 
+    Add in the props to the Task component - the grandchild - or bottom component - ie props. Adding the information to be passed to props to the TaskList component
+
+        Instead of having inline tasks written out, now try adding an array that we could loop through.
+
 
 
 
