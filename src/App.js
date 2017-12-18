@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import Task from './components/Task';
+import TaskList from './components/TaskList';
 
 const App = () => (
   
-      <Task />
+      <TaskList />
 )
 
 export default App;
