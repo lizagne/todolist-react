@@ -1,20 +1,26 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Row, Button, Col } from 'react-bootstrap';
 import FontAwesome from 'react-fontawesome';
 
-const AddButton = () => (
-
-	<div>
-		<Row>
-			<Col xs={10}></Col>
-			<Col xs={2}>
-				<Button bsStyle="danger" bsSize="large">
+class AddButton extends Component {
+    handleClick(){
+      this.props.onClick();
+    }
+    render() {
+        return (
+            <div>
+				<Row>
+				<Col xs={10}></Col>
+				<Col xs={2}>
+					<Button bsStyle="danger" bsSize="large" onClick={this.handleClick.bind(this)}>
 					<FontAwesome name='plus' />
-				</Button>
-			</Col>
-		</Row>
-	</div>
+					</Button>
+				</Col>
+				</Row>
+            </div>
+        );
+    }
+}
 
-);
 
 export default AddButton;
