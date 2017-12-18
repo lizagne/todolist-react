@@ -35,6 +35,12 @@
 
     Add an avatar component, with my face!
 
+    Add an AddButton component
+
+    Put everything to render on the App.js
+
+    now install moment.js with npm install moment --save
+
     
 
 
