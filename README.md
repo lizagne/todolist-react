@@ -47,6 +47,8 @@
 
         Instead of having inline tasks written out, now try adding an array that we could loop through.
 
+    Adding the onClick handler to the button and the info of a new task into a function on the TaskList component.
+
 
 
 
