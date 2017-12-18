@@ -1,13 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 import Task from './components/Task';
 
-class App extends Component {
-  render() {
-    return (
+const App = () => (
+  
       <Task />
-    );
-  }
-}
+)
 
 export default App;
