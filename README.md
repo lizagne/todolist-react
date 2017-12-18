@@ -41,7 +41,7 @@
 
     now install moment.js with npm install moment --save
 
-    
+    Update the Datecomp component with importing Moment.js and also changing the format so that it'll show today's date.
 
 
 
