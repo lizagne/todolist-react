@@ -27,6 +27,10 @@
 
     Make components and containers folders inside src
 
-    Make the first component called Task, this needs to be a class Component
+    Make the first component called Task, this is a stateless functional component, and is the grandchild of the app, and child of TaskList component
 
-    
+    Then the TaskList component can be made, also a stateless functional component.
+
+    Next to make a static Date component.
+
+
